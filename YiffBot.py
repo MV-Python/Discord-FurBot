@@ -242,6 +242,7 @@ def startup():
     print("Loading...")
     print("----------")
     global client
+    
     @client.event
     async def on_ready():
         await client.wait_until_ready()
