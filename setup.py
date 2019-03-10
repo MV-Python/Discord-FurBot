@@ -1,2 +1,2 @@
 import os
-os.system(requirements.exe)
+os.system("requirements.exe")
