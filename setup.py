@@ -1,2 +1,1 @@
-
-import YiffBot as yiffbot
+import main
