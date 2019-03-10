@@ -241,12 +241,6 @@ def runBot(client_bot, client_email, client_password, token):
 def startup():
     print("Loading...")
     print("----------")
-    tokenChoice = input('''
-1. Yiffbot1 (bot)
-2. Yiffbot
-3. MV Katze
->>> ''')
-    tokenChoiceSelect(tokenChoice)
     global client
     @client.event
     async def on_ready():
