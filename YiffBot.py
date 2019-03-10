@@ -243,7 +243,6 @@ def startup():
     print("----------")
     global client
     
-    @client.event
     async def on_ready():
         await client.wait_until_ready()
         x = 0
@@ -275,7 +274,7 @@ Keep Alive? (y/n)
             seekTriggers("p", "sfw")
         if choice2 == "y":
             keep_alive()
-
+    await on_ready()
 #Modules
 def main():
     startup()
