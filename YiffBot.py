@@ -232,6 +232,7 @@ def runBot(client_bot, client_email, client_password, token):
             print("")
             print("All Logins Failed!")
             print("Error:", str(e))
+    client.close()
 
     print("")
     print("Restarting...")
