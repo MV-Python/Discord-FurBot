@@ -1,6 +1,6 @@
 #YiffBot 3.0
 #----------
-from tokens import *
+from variables import *
 #----------
 import discord
 import ssl
